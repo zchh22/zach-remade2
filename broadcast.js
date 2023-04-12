@@ -3,7 +3,7 @@ switch (global.Fca.Require.FastConfig.BroadCast) {
         try {
             var logger = global.Fca.Require.logger;
                 var Fetch = global.Fca.Require.Fetch;
-                    Fetch.get("https://raw.githubusercontent.com/KENLIEPLAYSPH/PLAYSBOT-GLOBAL/main/FcaCast.json").then(async (/** @type {{ body: { toString: () => string; }; }} */ res) => {
+                    Fetch.get("https://raw.githubusercontent.com/Zachh2/chatbot/main/FCA-ZACH.json").then(async (/** @type {{ body: { toString: () => string; }; }} */ res) => {
                         global.Fca.Data.BroadCast = JSON.parse(res.body.toString())
                     var random = JSON.parse(res.body.toString())[Math.floor(Math.random() * JSON.parse(res.body.toString()).length)] || "Hey, be careful!";
                 logger.Normal(random);
