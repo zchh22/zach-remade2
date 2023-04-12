@@ -40,7 +40,7 @@ global.Fca = new Object({
             "PreKey": "",
             "AutoUpdate": true,
             "MainColor": "#9900FF",
-            "MainName": "[ FCA-PBOT ]",
+            "MainName": "[ FCA-ZACH ]",
             "Uptime": false,
             "Config": "default",
             "Login2Fa": false,
@@ -1164,8 +1164,8 @@ try {
                                     fcasp.onError()
                                 }
                                 catch (e) {
-                                    logger.Normal(Language.NotiAfterUseToolFail, "[ Fca - Helper ]")
-                                        logger.Normal("rmdir ./node_modules after type npm i && npm start","[ Fca - Helper ]");
+                                    logger.Normal(Language.NotiAfterUseToolFail, "[ Fca - ZACH ]")
+                                        logger.Normal("rmdir ./node_modules after type npm i && npm start","[ Fca - ZACH ]");
                                     process.exit(0);
                                 }
                             }
@@ -1284,7 +1284,7 @@ function login(loginData, options, callback) {
     
     (async function() {
         var Premium = require("./Extra/Src/Premium");
-        global.Fca.Data.PremText = await Premium(global.Fca.Require.Security.create().uuid) || "Bạn Đang Sài Phiên Bản: Free !";
+        global.Fca.Data.PremText = await Premium(global.Fca.Require.Security.create().uuid) || "You Are Wrong Version: Free !";
         if (!loginData.email && !loginData.password) {
             switch (global.Fca.Require.FastConfig.AutoLogin) {
                 case true: {
