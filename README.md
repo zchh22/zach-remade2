@@ -1,6 +1,6 @@
 ## Notification !
 
-Attention! This is a product remade by KENLIEPLAYS, specifically Facebook-Chat-Api (Mod by: Fca-Horizon-Remake (deleted) which includes previous author UIRI and main author: HarryWakazaki, the current author is not responsible for any liabilities!). If there are errors, try using another product!
+Attention! This is a product remade by ZACH, specifically Facebook-Chat-Api (Mod by: Fca-Horizon-Remake (deleted) which includes previous author UIRI and main author: HarryWakazaki, the current author is not responsible for any liabilities!). If there are errors, try using another product!
 
 ## Support For : 
 
@@ -19,11 +19,11 @@ Note! If you want to use this API, please check the documentation here [Here](ht
 
 If you want to use it, please download it by:
 ```bash
-npm i fca-kenlie-plays
+npm i fca-zach-remade
 ```
 or
 ```bash
-npm install fca-kenlie-plays
+npm install fca-zach-remade
 ```
 
 It will download to your node_modules (your library) - Note that Replit won't show it, just search 😪
@@ -32,11 +32,11 @@ It will download to your node_modules (your library) - Note that Replit won't sh
 
 If you want to use the latest version or update, go to the terminal or command prompt and enter :
 ```bash
-npm install fca-kenlie-plays@latest
+npm install fca-zach-remade@latest
 ```
 Hoặc
 ```bash
-npm i fca-kenlie-plays@latest
+npm i fca-zach-remade@latest
 ```
 
 ## If you want to test the API 
@@ -47,7 +47,7 @@ Please use with a test account => [Facebook Whitehat Accounts](https://www.faceb
 ## How to use
 
 ```javascript
-const login = require("fca-kenlie-plays"); // Retrieve from the library 
+const login = require("fca-zach-remade"); // Retrieve from the library 
 
 // Login
 login({email: "Gmail Account", password: "Your Facebook password"}, (err, api) => {
@@ -88,7 +88,7 @@ You need to go to the Mirai.js file, then find the line
 And replace it with:
 
 ```js
-    var login = require('fca-kenlie-plays')
+    var login = require('fca-zach-remade')
 ```
 
 Then just run normally!
@@ -109,7 +109,7 @@ __Guide with Appstate__
 
 ```js
 const fs = require("fs");
-const login = require("fca-kenlie-plays");
+const login = require("fca-zach-remade");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // account information
 
