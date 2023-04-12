@@ -1,6 +1,6 @@
 {
   "_from": "fca-zach-remade@latest",
-  "_id": "fca-zach-remade@32.0.0",
+  "_id": "fca-zach-remade@32.4.0",
   "_inBundle": false,
   "_integrity": "sha512-bipCCx3+/jsz+SODaAQ/UJjqoQg59xOhETKUzoMaLerrsre+hzqDk/l5yE4RhdzXYcwRAOxNpyjhtVE9sH9GnA==",
   "_location": "/fca-zach-remade",
@@ -187,5 +187,5 @@
     "prettier": "prettier utils.js src/* --write",
     "test": "mocha"
   },
-  "version": "32.0.0"
+  "version": "32.4.0"
 }
