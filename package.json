@@ -1,9 +1,9 @@
 {
-  "_from": "fca-zach-remade@latest",
-  "_id": "fca-zach-remade@32.5.0",
+  "_from": "zach-remade@latest",
+  "_id": "zach-remade@32.5.0",
   "_inBundle": false,
   "_integrity": "sha512-bipCCx3+/jsz+SODaAQ/UJjqoQg59xOhETKUzoMaLerrsre+hzqDk/l5yE4RhdzXYcwRAOxNpyjhtVE9sH9GnA==",
-  "_location": "/fca-zach-remade",
+  "_location": "/zach-remade",
   "_phantomChildren": {
     "abort-controller": "3.0.0",
     "aproba": "1.2.0",
@@ -75,9 +75,9 @@
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "fca-zach-remade@latest",
-    "name": "fca-zach-remade",
-    "escapedName": "fca-zach-remade",
+    "raw": "zach-remade@latest",
+    "name": "zach-remade",
+    "escapedName": "zach-remade",
     "rawSpec": "latest",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -171,13 +171,13 @@
     "horizon fca",
     "horizon",
     "Fca zach",
-    "fca-zach-remade",
+    "zach-remade",
     "zach fca",
     "zach"
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "fca-zach-remade",
+  "name": "zach-remade",
   "repository": {
     "type": "git",
     "url": "git://github.com/zachh2/fca-zach-remade.git"
