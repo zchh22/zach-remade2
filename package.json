@@ -180,7 +180,10 @@
   "name": "zach-remade",
   "repository": {
     "type": "git",
-    "url": "git://github.com/zachh2/fca-zach-remade.git "lint": "eslint **.js",,
+    "url": "git://github.com/zachh2/fca-zach-remade.git
+    },
+  "scripts": {
+    "lint": "eslint **.js",
     "prettier": "prettier utils.js src/* --write",
     "test": "mocha"
   },
