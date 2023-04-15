@@ -86,14 +86,14 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/fca-zach-remade/-/fca-zach-remade-32.1.1.tgz",
+  "_resolved": "https://registry.npmjs.org/zach-remade/-/zach-remade-32.1.1.tgz",
   "_shasum": "deae4ab7b267fa85a35311c1a48dde4e7ac2bb53",
   "_spec": "fca-kenlie-plays@latest",
   "author": {
     "name": "Avery, David, Maude, Benjamin, UIRI, KanzuWakazaki, KENLIEPLAYS, ZACH"
   },
   "bugs": {
-    "url": "https://github.com/zachh2/fca-zach-remade/issues"
+    "url": "https://github.com/zchh22/fca-zach-remade/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -164,7 +164,7 @@
       ]
     }
   },
-  "homepage": "https://github.com/HarryWakazaki/fca-zach-remade#readme",
+  "homepage": "https://github.com/HarryWakazaki/zach-remade#readme",
   "keywords": [
     "Fca horizon",
     "fca-horizon-remake",
@@ -180,10 +180,7 @@
   "name": "zach-remade",
   "repository": {
     "type": "git",
-    "url": "git://github.com/zachh2/fca-zach-remade.git"
-  },
-  "scripts": {
-    "lint": "eslint **.js",
+    "url": "git://github.com/zachh2/fca-zach-remade.git "lint": "eslint **.js",,
     "prettier": "prettier utils.js src/* --write",
     "test": "mocha"
   },
